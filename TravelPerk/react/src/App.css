@@ -1,0 +1,115 @@
+
+/*AJUSTES GENERALES*/
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+*{
+  margin: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("img/avionback.jpg");
+  background-size: cover; /* Ajustar la imagen para cubrir todo el elemento */
+  background-position: center; /* Centrar la imagen en el elemento */
+  background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+}
+h1{
+  font-family: sans-serif;
+  color: rgb(91, 89, 89);
+  margin-top: 20px;
+}
+
+form{
+  width: 400px;
+  background-color: #24303c95;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: calibry;
+  color: white;
+  
+}
+
+h1{
+  font-size: 60px;
+  transition: 90ms;
+  font-family: Candara;
+  color: #334557;
+  margin-bottom: -40px;
+}
+
+
+
+
+.input{
+  border: none;
+
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 2px solid rgb(105, 67, 44);
+  font-family: calibry;
+  font-size: 18px;
+  color: white;
+  
+}
+
+.input:hover{
+  border: rgb(105, 67, 44) 4px solid;
+  cursor: pointer;
+  transition: 600ms;
+}
+
+.input::placeholder{
+  color: white;
+}
+
+#date{
+ color: whitesmoke;
+}
+
+form a{
+  display: box;
+  width: 100%;
+  background-color: rgb(105, 67, 44);
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  margin-right: 5px;
+}
+a:hover{
+  border: 3px solid #334557;
+  cursor: pointer;
+}
+a:active{
+  border:7px solid #24303c;
+}
+
+
+form button{
+  display: box;
+  background-color: rgb(105, 67, 44);
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  margin-right: 5px;
+}
+button:hover{
+  border: 3px solid #334557;
+  cursor: pointer;
+}
+button:active{
+  border:7px solid #24303c;
+}

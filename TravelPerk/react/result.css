@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+}
+
+div{
+    display: box;
+    border: solid 1px black;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgba(155, 152, 152, 0.721);
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+}
+div:hover{
+    background-color: white;
+    transition: 600ms;
+}
+h1{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+body{
+    background-color: rgb(105, 67, 44);
+}
